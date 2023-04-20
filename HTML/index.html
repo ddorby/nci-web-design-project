@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+
+  <!--Google Fonts Link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600&display=swap" rel="stylesheet">
+  
+  <!--Font awesome library link for social media icons-->
+  <link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!--Boxicons link for additional icons-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--CSS Link-->
+  <link rel="stylesheet" href="../CSS/shopPage.css">
+
+
+
+</head>
+<body>
+
+  <!--Header for the website-->
+
+  <header>
+    <!--Nav-->
+    <div class="nav-container">
+      <a class="shop-logo"><img src="../Images/coffee-cup-logo-template-vector-icon-design.jpg" class="cafe-logo"></a>
+
+      <nav class="header-nav">
+        <ul>
+          <li><a href="http://127.0.0.1:5500/HTML/index.html">Home</a></li>
+          <li><a href="http://127.0.0.1:5500/HTML/about.html">About</a></li>
+          <li><a href="http://127.0.0.1:5500/HTML/shoppage.html">Online store</a></li>
+          <li><a href="http://127.0.0.1:5500/HTML/staff.html">our staff</a></li>
+        </ul>
+      </nav>
+
+
+      <!--shopping cart Icon-->
+      <i class='bx bx-cart' id="cartIcon"></i>
+      <!--cart summary-->
+      <div class="cartSideBar">
+          <h2 class="cartSidebar-title">Your Orders</h2>
+          <!--Cart Contents-->
+          <div class="cartContents">
+
+          </div>
+            <!--price total of items in cart-->
+            <div class="cartTotal">
+              <div class="cartTotal-title">Total</div>
+              <div class="cartTotal-price">€0</div>
+            </div>
+            <!--checkout option-->
+            <button type="button" class="buyButton">Checkout</button>
+            <!--close sidebar option-->
+            <i class='bx bx-exit' id="closeSideBar"></i>
+      </div>
+    </div>
+  </header> 
+
+
+  <div class="welcome-container">
+    <div class="welcome-text">
+      <h1>Welcome!</h1>
+      <p>Get ready to enjoy the best coffee experience of your life.</p>
+      <a href="http://127.0.0.1:5500/HTML/about.html"><button>Learn More</button></a>
+    </div>
+    <div class="smiling-cup">
+      <img src="../Images/additional images/happyCoffee.jpg" alt="Welcome image">
+    </div>
+  </div>
+  <br>
+
+
+
+
+
+
+  <!--This is the beginning of the footer.
+  Research for the footer was done thought google and Youtube Videos-->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="http://127.0.0.1:5500/HTML/about.html">about us</a></li>
+          </ul>
+        </div>
+
+
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="http://127.0.0.1:5500/HTML/shoppage.html">coffee</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="footer-social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  
+  <!--JavaScript Link-->
+  <script src="../JS/index.js"></script>
+</body>
+</html>
